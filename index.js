@@ -16,9 +16,7 @@ const openai = new OpenAI({
   baseURL: "https://api.deepseek.com",
 });
 
-client.once("ready", () => {
-  console.log(`Logged in as ${client.user.tag}`);
-});
+client.once("ready", () => {console.log(`Logged in as ${client.user.tag}`);});
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
