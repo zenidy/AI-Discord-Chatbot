@@ -29,7 +29,7 @@ client.on("messageCreate", async (message) => {
       const response = await openai.chat.completions.create({
         model: "deepseek-chat",
         messages: [
-          { role: "system", content: "You are a Gangster using Gen Z slang." },
+          { role: "system", content: "You are a helpful assistant." },
           { role: "user", content: userInput },
         ],
       }); 
