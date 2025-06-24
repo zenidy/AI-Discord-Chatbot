@@ -11,3 +11,6 @@ HOW TO USE (Deepseek):
 3. Install OpenAI SDK into your directory
 4. Within the .env file, add in your keys to your Discord API and Deepseek key.
 5. Within the terminal, run "node index.js", it should return in the console that the bot has logged in with the username.
+
+OPTIONS:
+1. You can change the AI's personality where it says "You are a helpful assistant." to anything you want.
